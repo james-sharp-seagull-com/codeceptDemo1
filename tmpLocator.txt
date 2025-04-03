@@ -1,36 +1,49 @@
-How found:	Mouse move (741,703)
-	hwnd=0x00070C38 32bit class="Button" style=0x50010009 ex=0x4
-Name:	"I accept the terms in the license agreement"
-ControlType:	UIA_RadioButtonControlTypeId (0xC35D)
-LocalizedControlType:	"radio button"
-BoundingRectangle:	{l:735 t:698 r:962 b:714}
+How found:	Mouse move (1225,1184)
+	hwnd=0x000101BA 64bit class="Shell_TrayWnd" style=0x96000000 ex=0x88
+Name:	"Extract Wizard - 1 running window"
+ControlType:	UIA_ButtonControlTypeId (0xC350)
+LocalizedControlType:	"button"
+BoundingRectangle:	{l:1205 t:1152 r:1249 b:1200}
 IsEnabled:	true
 IsOffscreen:	false
 IsKeyboardFocusable:	true
-HasKeyboardFocus:	true
-AccessKey:	"Alt+a"
-ProcessId:	5492
-RuntimeId:	[2A.70C38]
-AutomationId:	"1005"
-FrameworkId:	"Win32"
-ClassName:	"Button"
-NativeWindowHandle:	0x70C38
-ProviderDescription:	"[pid:10684,providerId:0x70C38 Main:Nested [pid:5492,providerId:0x70C38 Annotation(parent link):Microsoft: Annotation Proxy (unmanaged:uiautomationcore.dll); Main:Microsoft: MSAA Proxy (unmanaged:uiautomationcore.dll)]; Hwnd(parent link):Microsoft: HWND Proxy (unmanaged:uiautomationcore.dll)]"
+HasKeyboardFocus:	false
+ProcessId:	14800
+RuntimeId:	[2A.1040E.4.B]
+AutomationId:	"Appid: C:\Users\jsharp\AppData\Local\Temp\DP_529D.tmp\__ExtractWizard.exe"
+FrameworkId:	"XAML"
+ClassName:	"Taskbar.TaskListButtonAutomationPeer"
+IsControlElement:	true
+IsContentElement:	true
+ProviderDescription:	"[pid:14800,providerId:0x0 Main(parent link):Unidentified Provider (unmanaged:Windows.UI.Xaml.dll)]"
+IsPeripheral:	false
+LiveSettingProperty:	Off (0)
 IsPassword:	false
-HelpText:	""
+IsRequiredForForm:	false
+IsDataValidForForm:	true
+ClickablePoint:	{x:1227 y:1176}
+Culture:	1033
+Orientation:	0
+PositionInSet:	4294967295
+SizeOfSet:	4294967295
+Level:	4294967295
+LandmarkType:	none (0x0)
 IsDialog:	false
+HeadingLevel:	HeadingLevel_None (0x138B2)
+Drag.DropEffect:	""
+Drag.GrabbedItems:	"Extract Wizard - 1 running window" button
+Drag.IsGrabbed:	false
 LegacyIAccessible.ChildId:	0
-LegacyIAccessible.DefaultAction:	"Check"
+LegacyIAccessible.DefaultAction:	"Press"
 LegacyIAccessible.Description:	""
 LegacyIAccessible.Help:	""
-LegacyIAccessible.KeyboardShortcut:	"Alt+a"
-LegacyIAccessible.Name:	"I accept the terms in the license agreement"
-LegacyIAccessible.Role:	radio button (0x2D)
-LegacyIAccessible.State:	focused,checked,focusable (0x100014)
+LegacyIAccessible.KeyboardShortcut:	""
+LegacyIAccessible.Name:	"Extract Wizard - 1 running window"
+LegacyIAccessible.Role:	push button (0x2B)
+LegacyIAccessible.State:	focusable (0x100000)
 LegacyIAccessible.Value:	""
-SelectionItem.IsSelected:	true
 IsAnnotationPatternAvailable:	false
-IsDragPatternAvailable:	false
+IsDragPatternAvailable:	true
 IsDockPatternAvailable:	false
 IsDropTargetPatternAvailable:	false
 IsExpandCollapsePatternAvailable:	false
@@ -42,9 +55,9 @@ IsLegacyIAccessiblePatternAvailable:	true
 IsMultipleViewPatternAvailable:	false
 IsObjectModelPatternAvailable:	false
 IsRangeValuePatternAvailable:	false
-IsScrollItemPatternAvailable:	false
+IsScrollItemPatternAvailable:	true
 IsScrollPatternAvailable:	false
-IsSelectionItemPatternAvailable:	true
+IsSelectionItemPatternAvailable:	false
 IsSelectionPatternAvailable:	false
 IsSpreadsheetItemPatternAvailable:	false
 IsSpreadsheetPatternAvailable:	false
@@ -64,13 +77,16 @@ IsVirtualizedItemPatternAvailable:	false
 IsWindowPatternAvailable:	false
 IsCustomNavigationPatternAvailable:	false
 IsSelectionPattern2Available:	false
-FirstChild:	[null]
-LastChild:	[null]
-Next:	"I do not accept the terms in the license agreement" radio button
-Previous:	"" document
+FirstChild:	"" image
+LastChild:	"" image
+Next:	"WebStorm 2024.3.4 - 1 running window" button
+Previous:	"Inspect Object (32-bit UNICODE Release) - 1 running window" button
 Other Props:	Object has no additional properties
-Children:	Container has no children
-Ancestors:	"Windows Printer Drivers" dialog
-	"Windows Printer Drivers" dialog
+Children:	"" image
+Ancestors:	"" group
+	"" pane
+	"" pane
+	"DesktopWindowXamlSource" pane
+	"Taskbar" pane
 	"Desktop 1" pane
 	[ No Parent ]
