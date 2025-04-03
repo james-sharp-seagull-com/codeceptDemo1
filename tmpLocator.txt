@@ -1,49 +1,35 @@
-How found:	Mouse move (1225,1184)
-	hwnd=0x000101BA 64bit class="Shell_TrayWnd" style=0x96000000 ex=0x88
-Name:	"Extract Wizard - 1 running window"
+How found:	Mouse move (1068,773)
+	hwnd=0x00050970 32bit class="Button" style=0x50010001 ex=0x4
+Name:	"Finish"
 ControlType:	UIA_ButtonControlTypeId (0xC350)
 LocalizedControlType:	"button"
-BoundingRectangle:	{l:1205 t:1152 r:1249 b:1200}
+BoundingRectangle:	{l:1025 t:760 r:1100 b:783}
 IsEnabled:	true
 IsOffscreen:	false
 IsKeyboardFocusable:	true
 HasKeyboardFocus:	false
-ProcessId:	14800
-RuntimeId:	[2A.1040E.4.B]
-AutomationId:	"Appid: C:\Users\jsharp\AppData\Local\Temp\DP_529D.tmp\__ExtractWizard.exe"
-FrameworkId:	"XAML"
-ClassName:	"Taskbar.TaskListButtonAutomationPeer"
-IsControlElement:	true
-IsContentElement:	true
-ProviderDescription:	"[pid:14800,providerId:0x0 Main(parent link):Unidentified Provider (unmanaged:Windows.UI.Xaml.dll)]"
-IsPeripheral:	false
-LiveSettingProperty:	Off (0)
+AccessKey:	""
+ProcessId:	17292
+RuntimeId:	[2A.50970]
+AutomationId:	"12325"
+FrameworkId:	"Win32"
+ClassName:	"Button"
+NativeWindowHandle:	0x50970
+ProviderDescription:	"[pid:7348,providerId:0x50970 Main:Nested [pid:17292,providerId:0x50970 Annotation(parent link):Microsoft: Annotation Proxy (unmanaged:uiautomationcore.dll); Main:Microsoft: MSAA Proxy (unmanaged:uiautomationcore.dll)]; Hwnd(parent link):Microsoft: HWND Proxy (unmanaged:uiautomationcore.dll)]"
 IsPassword:	false
-IsRequiredForForm:	false
-IsDataValidForForm:	true
-ClickablePoint:	{x:1227 y:1176}
-Culture:	1033
-Orientation:	0
-PositionInSet:	4294967295
-SizeOfSet:	4294967295
-Level:	4294967295
-LandmarkType:	none (0x0)
+HelpText:	""
 IsDialog:	false
-HeadingLevel:	HeadingLevel_None (0x138B2)
-Drag.DropEffect:	""
-Drag.GrabbedItems:	"Extract Wizard - 1 running window" button
-Drag.IsGrabbed:	false
 LegacyIAccessible.ChildId:	0
 LegacyIAccessible.DefaultAction:	"Press"
 LegacyIAccessible.Description:	""
 LegacyIAccessible.Help:	""
 LegacyIAccessible.KeyboardShortcut:	""
-LegacyIAccessible.Name:	"Extract Wizard - 1 running window"
+LegacyIAccessible.Name:	"Finish"
 LegacyIAccessible.Role:	push button (0x2B)
-LegacyIAccessible.State:	focusable (0x100000)
+LegacyIAccessible.State:	default,focusable (0x100100)
 LegacyIAccessible.Value:	""
 IsAnnotationPatternAvailable:	false
-IsDragPatternAvailable:	true
+IsDragPatternAvailable:	false
 IsDockPatternAvailable:	false
 IsDropTargetPatternAvailable:	false
 IsExpandCollapsePatternAvailable:	false
@@ -55,7 +41,7 @@ IsLegacyIAccessiblePatternAvailable:	true
 IsMultipleViewPatternAvailable:	false
 IsObjectModelPatternAvailable:	false
 IsRangeValuePatternAvailable:	false
-IsScrollItemPatternAvailable:	true
+IsScrollItemPatternAvailable:	false
 IsScrollPatternAvailable:	false
 IsSelectionItemPatternAvailable:	false
 IsSelectionPatternAvailable:	false
@@ -77,16 +63,12 @@ IsVirtualizedItemPatternAvailable:	false
 IsWindowPatternAvailable:	false
 IsCustomNavigationPatternAvailable:	false
 IsSelectionPattern2Available:	false
-FirstChild:	"" image
-LastChild:	"" image
-Next:	"WebStorm 2024.3.4 - 1 running window" button
-Previous:	"Inspect Object (32-bit UNICODE Release) - 1 running window" button
+FirstChild:	[null]
+LastChild:	[null]
+Next:	"Cancel" button
+Previous:	"< Back" button
 Other Props:	Object has no additional properties
-Children:	"" image
-Ancestors:	"" group
-	"" pane
-	"" pane
-	"DesktopWindowXamlSource" pane
-	"Taskbar" pane
+Children:	Container has no children
+Ancestors:	"Windows Printer Drivers" dialog
 	"Desktop 1" pane
 	[ No Parent ]

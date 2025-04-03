@@ -23,7 +23,7 @@ Given(/^The user has installed a driver on the system$/, function () {
     });
     I.wait(3);
     I.click("//RadioButton[@Name='I accept the terms in the license agreement']");
-    I.click("//Button[@Name='Next']");
-    I.click("//Button[@Name='Next']");
+    I.click("//Button[@Name='Next >']");
+    I.click("//Button[@Name='Next >']");
     I.click("//Button[@Name='Finish']");
 });
